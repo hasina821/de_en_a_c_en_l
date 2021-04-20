@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chiffre en lettre</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial=0.1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="title1">On va transormer un chiffre en lettre du dollard/euro en Ariary</h1>
+	<div class="form_1">
+		<form id="formu">
+			<fieldset class="field">
+				<legend>CONVERT</legend>
+				<label for="montant">Entrez ici votre argent</label></br></br>
+				<input type="radio" name="choice" id="choix1" value="Dollar">
+				<label for="choix1">Dollar</label></br>
+				<input type="radio" name="choice" id="choix2" value="Euro">
+				<label for="choix2">Euro</label>
+				<input type="number" name="argent" id="montant">
+				<button id="btn_1" type="button" onclick="valideform()">Convertir</button>
+			</fieldset>
+		</form>
+	</div>
+	<div class="ariary">
+		<p id="para_errer">En ariary: </p>
+	</div>
+<script type="text/javascript" src="app.js">
+</script>
+</body>
+</html>
